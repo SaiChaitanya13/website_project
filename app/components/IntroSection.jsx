@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import { TypeAnimation } from '/Users/chaitanya/node_modules';
+import { TypeAnimation } from 'react-type-animation';
 
 
 

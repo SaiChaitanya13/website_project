@@ -1,5 +1,5 @@
 import React from 'react'
-import{EyeIcon} from "/Users/chaitanya/node_modules/@heroicons/react/24"
+import {EyeIcon} from "@heroicons/react/24/outline"
 import Link from "next/link"
 
 const ProjectCard = ({imgUrl, title, description, projectUrl }) => {

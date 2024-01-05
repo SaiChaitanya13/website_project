@@ -9,7 +9,7 @@ const projectsData = [
       title: "React Portfolio Website (THIS)",
       description: "I created this website using React to improve my skills and learn more.",
       image: "/images/projects/portfolio.png",
-      projectUrl: "",
+      projectUrl: "https://github.com/SaiChaitanya13/website_project",
     },
     {
       id: 2,

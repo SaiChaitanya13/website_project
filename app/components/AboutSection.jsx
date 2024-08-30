@@ -14,7 +14,7 @@ const TAB_DATA = [
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Java</li>
-                <li>PostgreSQL</li>
+                <li>SQL</li>
                 <li>RTOS</li>
                 <li>Neo4j</li>
             </ul>
@@ -25,8 +25,9 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc pl-2'>
+                <li> IoT Engineer Intern at Resync Technologies</li>
                 <li> Data Analytics Intern at ASMPT </li>
-                <li> IT Help Desk Support at CTC Global Pte Ltd</li>
+                
             </ul>
         )
     },
@@ -36,7 +37,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Computer Engineering student at National University of Singapore</li>
-                <li>Exchange student at University of Texas at Austin</li>
+                <li>Exchange student at The University of Texas at Austin</li>
             </ul>
         )
     }
@@ -61,9 +62,9 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h1 className="text-4xl font-bold text-[#2e2e2e] mb-4"> Introduction</h1>
                 <p className="text-base lg:text-lg">
-                    I am a penultimate year Computer Engineering undergraduate at the School of Computing at NUS. 
-                    I am an aspiring software enginer and want to solve problems with creative solutions. 
-                    I have experience working with React, Python, Java, C++ and Git to name a few.
+                    I am a final year Computer Engineering undergraduate at the School of Computing at NUS. 
+                    I want to solve problems with creative solutions. 
+                    I have experience working with various tools such as React, TensorFlow, Python to name a few.
                     I am someone who wants to keep learning more and trying out new things! 
                     My hobbies include playing sports such as squash and football as well as chess. 
                 </p>

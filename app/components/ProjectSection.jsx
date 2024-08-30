@@ -8,14 +8,14 @@ const projectsData = [
       id: 1,
       title: "Predicting Credit Card Fraud Outliers",
       description: "Used various machine learning models to predict credit card fraud.",
-      image: "/images/projects/portfolio.png",
+      image: "/images/projects/creditcard.png",
       projectUrl: "https://drive.google.com/file/d/1R5QxzZ6abmolOG5Vrbx2oedLJDbmWsBm/view?usp=sharing",
     },
     {
       id: 2,
       title: "React Portfolio Website",
       description: "I created this website using React to improve my skills and learn more.",
-      image: "/images/projects/portfolio.png",
+      image: "/images/projects/website.png",
       projectUrl: "https://github.com/SaiChaitanya13/website_project",
     },
     {

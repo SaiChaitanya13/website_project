@@ -54,6 +54,7 @@ const TAB_DATA = [
                 <li>Was part of various CCAs in Eusoff Hall including squash, football as well as photography.</li>
             </ul>
         )
+    }
 ]
 const AboutSection = () => {
     const [tab, setTab] = useState("skills")

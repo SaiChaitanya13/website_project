@@ -44,7 +44,7 @@ const TAB_DATA = [
         )
     },
     {
-        title: "Co-curricular and external activities",
+        title: "Co-curricular and External activities",
         id: "co-curricular",
         content: (
             <ul className='list-disc pl-2'>
@@ -106,7 +106,7 @@ const AboutSection = () => {
                     selectTab={() => handleTabChange("co-curricular")} 
                     active={tab === "co-curricular"}
                     >{" "}
-                    Education{" "}
+                    Co-curricular and External activities{" "}
                     </TabButton>                                               
                 </div>
                 <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>

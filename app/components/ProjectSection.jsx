@@ -7,7 +7,7 @@ const projectsData = [
     {
       id: 1,
       title: "2-player AR Laser Tag Game",
-      description: "•	Developed a 2-player AR laser tag game where players wear sensors, perform actions, and view effects and HP updates through AR on a phone mounted in front of them. Led the AI development, designing and training a machine learning model to detect actions in real-time.",
+      description: "Developed a 2-player AR laser tag game where players wear sensors, perform actions, and view effects and HP updates through AR on a phone mounted in front of them. Led the AI development, designing and training a machine learning model to detect actions in real-time.",
       image: "",
       projectUrl: "https://github.com/kyrenechua/cg4002-b07"
     },

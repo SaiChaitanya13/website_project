@@ -6,39 +6,40 @@ import { motion, useInView} from "framer-motion"
 const projectsData = [ 
     {
       id: 1,
+      title: "2-player AR Laser Tag Game",
+      description: "•	Developed a 2-player AR laser tag game where players wear sensors, perform actions, and view effects and HP updates through AR on a phone mounted in front of them. Led the AI development, designing and training a machine learning model to detect actions in real-time.",
+      image: "",
+      projectUrl: "https://drive.google.com/file/d/1R5QxzZ6abmolOG5Vrbx2oedLJDbmWsBm/view?usp=sharing"
+    },
+    {
+      id: 2,
       title: "Predicting Credit Card Fraud Outliers",
       description: "Used various machine learning models to predict credit card fraud.",
       image: "/images/projects/creditcard.png",
       projectUrl: "https://drive.google.com/file/d/1R5QxzZ6abmolOG5Vrbx2oedLJDbmWsBm/view?usp=sharing",
     },
     {
-      id: 2,
+      id: 3,
       title: "React Portfolio Website",
       description: "I created this website using React to improve my skills and learn more.",
       image: "/images/projects/website.png",
       projectUrl: "https://github.com/SaiChaitanya13/website_project",
     },
     {
-      id: 3,
+      id: 4,
       title: "Real Time Operating Systems Project",
       description: "As a group, we built and programmed a robot using RTOS. We controlled it using a phone application to complete a maze as quickly as possible.",
       image: "/images/projects/cg2271.png",
       projectUrl: "https://www.youtube.com/watch?v=ne8cC6VkYxY",
     },
     {
-      id: 4,
+      id: 5,
       title: "Buddy - A Task Tracking Cli Application",
       description: "I created a task tracking application on cli interface using Java where you can add different types of tasks and keep up to date with what you have to do.",
       image: "/images/projects/cs2113_ip.png",
       projectUrl: "https://github.com/SaiChaitanya13/ip/tree/master",
     },
-    {
-      id: 5,
-      title: "Budget Buddy - A Budget Tracking Cli Application",
-      description: "As a group, we created a budget tracking application on cli interfacec using Java where you can add various budgets, expenses, check your stats per month among other features.",
-      image: "/images/projects/cs2113_tp.png",
-      projectUrl: "https://github.com/AY2223S2-CS2113-W15-3/tp/tree/master",
-    },
+
     {
       id: 6, 
       title: "Spectrometer on FPGA",

@@ -11,6 +11,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'> 
                 <li>Python</li>
                 <li>C++</li>
+                <li>AWS</li>
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Java</li>
@@ -25,6 +26,7 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc pl-2'>
+                <li> ML/AI DevOps Engineer Intern at Carecam</li>
                 <li> IoT Engineer Intern at Resync Technologies</li>
                 <li> Data Analytics Intern at ASMPT </li>
                 
@@ -37,10 +39,21 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Computer Engineering student at National University of Singapore</li>
-                <li>Exchange student at The University of Texas at Austin</li>
+                <li>Exchange student at The University of Texas at Austin for Spring 2024</li>
             </ul>
         )
-    }
+    },
+    {
+        title: "Co-curricular and external activities",
+        id: "co-curricular",
+        content: (
+            <ul className='list-disc pl-2'>
+                <li>Am currently an Assistant Coach at SheerSquash Academy and am involved in coaching children and beginners.</li>
+                <li>Was a regular volunteer at NUS Students' Community Service Club under Yishun Reading Odyssey and helped children with their reading and English</li>
+                <li>Was the Team Manager and a player in the Varsity NUS Cricket team.</li>
+                <li>Was part of various CCAs in Eusoff Hall including squash, football as well as photography.</li>
+            </ul>
+        )
 ]
 const AboutSection = () => {
     const [tab, setTab] = useState("skills")
@@ -62,11 +75,11 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h1 className="text-4xl font-bold text-[#2e2e2e] mb-4"> Introduction</h1>
                 <p className="text-base lg:text-lg">
-                    I am a final year Computer Engineering undergraduate at the School of Computing at NUS. 
-                    I want to solve problems with creative solutions. 
-                    I have experience working with various tools such as React, TensorFlow, Python to name a few.
-                    I am someone who wants to keep learning more and trying out new things! 
-                    My hobbies include playing sports such as squash and football as well as chess. 
+                I am a final-year Computer Engineering undergraduate at NUS with a passion for solving problems through creative and innovative solutions. 
+                I have experience working with a range of tools and technologies, including Python, React and AWS, and I’m always eager to learn and explore new ideas. 
+                Beyond academics, I enjoy playing sports like squash and football, as well as engaging in strategic games like chess. I also have an interest in 
+                machine learning and AI as well as in
+                cryptocurrency and trading.
                 </p>
                 <div className='flex flex-row mt-8'>
                     <TabButton 
@@ -87,7 +100,13 @@ const AboutSection = () => {
                     active={tab === "education"}
                     >{" "}
                     Education{" "}
-                    </TabButton>                                        
+                    </TabButton>
+                    <TabButton 
+                    selectTab={() => handleTabChange("co-curricular")} 
+                    active={tab === "co-curricular"}
+                    >{" "}
+                    Education{" "}
+                    </TabButton>                                               
                 </div>
                 <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
             </div>

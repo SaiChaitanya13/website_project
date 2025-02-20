@@ -49,7 +49,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'>
                 <li>Am currently an Assistant Coach at SheerSquash Academy and am involved in coaching children and beginners.</li>
                 <li>Was a regular volunteer at NUS Students&apos Community Service Club under Yishun Reading Odyssey and helped children with their reading and English.</li>
-                <li>Was the Team Manager and a player in the Varsity NUS Cricket team.</li>
+                <li>Was the Team Manager and a player in the NUS Varsity Cricket team.</li>
                 <li>Was part of various CCAs in Eusoff Hall including squash, football as well as photography.</li>
             </ul>
         )

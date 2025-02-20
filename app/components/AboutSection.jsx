@@ -29,7 +29,6 @@ const TAB_DATA = [
                 <li> ML/AI DevOps Engineer Intern at Carecam</li>
                 <li> IoT Engineer Intern at Resync Technologies</li>
                 <li> Data Analytics Intern at ASMPT </li>
-                
             </ul>
         )
     },
@@ -49,7 +48,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Am currently an Assistant Coach at SheerSquash Academy and am involved in coaching children and beginners.</li>
-                <li>Was a regular volunteer at NUS Students' Community Service Club under Yishun Reading Odyssey and helped children with their reading and English</li>
+                <li>Was a regular volunteer at NUS Students' Community Service Club under Yishun Reading Odyssey and helped children with their reading and English.</li>
                 <li>Was the Team Manager and a player in the Varsity NUS Cricket team.</li>
                 <li>Was part of various CCAs in Eusoff Hall including squash, football as well as photography.</li>
             </ul>
@@ -77,7 +76,7 @@ const AboutSection = () => {
                 <h1 className="text-4xl font-bold text-[#2e2e2e] mb-4"> Introduction</h1>
                 <p className="text-base lg:text-lg">
                 I am a final-year Computer Engineering undergraduate at NUS with a passion for solving problems through creative and innovative solutions. 
-                I have experience working with a range of tools and technologies, including Python, React and AWS, and I’m always eager to learn and explore new ideas. 
+                I have experience working with a range of tools and technologies, including Python, React and AWS, and I am always eager to learn and explore new ideas. 
                 Beyond academics, I enjoy playing sports like squash and football, as well as engaging in strategic games like chess. I also have an interest in 
                 machine learning and AI as well as in
                 cryptocurrency and trading.

@@ -75,7 +75,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h1 className="text-4xl font-bold text-[#2e2e2e] mb-4"> Introduction</h1>
                 <p className="text-base lg:text-lg">
-                I am a final-year Computer Engineering undergraduate at NUS with a passion for solving problems through creative and innovative solutions. 
+                I am a final-year Computer Engineering undergraduate at NUS and an NUS Merit Scholar, driven by a passion for solving problems through creative and innovative solutions.
                 I have experience working with a range of tools and technologies, including Python, React and AWS, and I am always eager to learn and explore new ideas. 
                 Beyond academics, I enjoy playing sports like squash and football, as well as engaging in strategic games like chess. I also have an interest in 
                 machine learning and AI as well as in

@@ -37,8 +37,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Computer Engineering student at National University of Singapore</li>
-                <li>Exchange student at The University of Texas at Austin for Spring 2024</li>
+                <li>Computer Engineering at National University of Singapore</li>
+                <li>Exchange semester at The University of Texas at Austin for Spring 2024</li>
             </ul>
         )
     },
@@ -47,9 +47,10 @@ const TAB_DATA = [
         id: "co-curricular",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Am currently an Assistant Coach at SheerSquash Academy and am involved in coaching children and beginners.</li>
-                <li>Was a regular volunteer at NUS Students&apos Community Service Club under Yishun Reading Odyssey and helped children with their reading and English.</li>
+                <li>Am currently an Assistant Squash Coach at SheerSquash Academy and am involved in coaching children and beginners of all ages.</li>
+                <li>Was a regular volunteer at NUS Students Community Service Club under Yishun Reading Odyssey and helped children with their reading and English.</li>
                 <li>Was the Team Manager and a player in the NUS Varsity Cricket team.</li>
+                <li>Was a volunteer feeder in NUS Cat Cafe, feeding 5 cats on a regular basis across different parts of campus.</li>
                 <li>Was part of various CCAs in Eusoff Hall including squash, football as well as photography.</li>
             </ul>
         )
@@ -77,9 +78,8 @@ const AboutSection = () => {
                 <p className="text-base lg:text-lg">
                 I am a final-year Computer Engineering undergraduate at NUS and an NUS Merit Scholar, driven by a passion for solving problems through creative and innovative solutions.
                 I have experience working with a range of tools and technologies, including Python, React and AWS, and I am always eager to learn and explore new ideas. 
-                Beyond academics, I enjoy playing sports like squash and football, as well as engaging in strategic games like chess. I also have an interest in 
-                machine learning and AI as well as in
-                cryptocurrency and trading.
+                Beyond academics, I enjoy playing sports like squash and football, as well as engaging in strategic games like chess. I also have a strong interest in 
+                machine learning and AI as well as in trading.
                 </p>
                 <div className='flex flex-row mt-8'>
                     <TabButton 

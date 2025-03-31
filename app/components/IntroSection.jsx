@@ -39,7 +39,7 @@ const NameIntro = () => {
             {/* <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"> 
             Hire Me  
         </button> */}
-        <a href="https://drive.google.com/file/d/1zJqEZx0oeDuNVB4OyU0MruRyolWbsg-0/view?usp=sharing"> 
+        <a href="https://drive.google.com/file/d/1WJZFt2hmgHc40dc6kRuiXiYjCcRvDoKr/view?usp=sharing"> 
             <button 
             className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-transparent bg-gradient-to-br from-blue-500 via purple-500 to-pink-500 hover:bg-slate-800 text-white border mt-3"> 
             <span className="block bg-[#2e2e2e] hover:bg-slate-800 rounded-full px-5 py-2">View Resume</span>
